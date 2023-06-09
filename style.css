@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    color: white;
+    background-color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+    display: grid;
+    grid-template-areas: "profile timeline";
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 100vh;
+}
+aside{
+    grid-area: profile;
+  background-image: url(img/IMG-20220501-WA0005.jpg);
+  background-repeat: no-repeat;
+display: flex;
+column-gap: 2rem;
+justify-content: ;
+}
+aside img{
+    width: 3rem;
+    height: 3rem;
+}
+
+nav{
+    grid-area: timeline;
+    padding: 64%;
+}
+ nav h2 {
+
+ }
